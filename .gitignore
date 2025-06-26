@@ -1,6 +1,6 @@
 .DS_Store
 db/
-src/quiz/api.py
+quiz_bot/api.py
 __pycache__/
 */__pycache__/
 venv/

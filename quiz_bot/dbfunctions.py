@@ -1,6 +1,6 @@
 import aiosqlite
 from aiogram import types
-from questions import quiz_data
+from .questions import quiz_data
 DB_NAME = 'db/quiz_bot.db'
 
 async def create_table():

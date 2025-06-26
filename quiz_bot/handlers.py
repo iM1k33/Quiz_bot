@@ -1,7 +1,7 @@
 from aiogram import F, types
 from aiogram.utils.keyboard import InlineKeyboardBuilder, ReplyKeyboardBuilder
-from dbfunctions import  update_quiz_index, get_quiz_index, get_user_score, update_user_score, save_quiz_result
-from questions import quiz_data
+from .dbfunctions import  update_quiz_index, get_quiz_index, get_user_score, update_user_score, save_quiz_result
+from .questions import quiz_data
 
 # Хэндлер команды /start
 async def cmd_start(message: types.Message):
